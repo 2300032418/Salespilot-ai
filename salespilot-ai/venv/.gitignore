@@ -1,0 +1,50 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Database
+db.sqlite3
+
+# Environment Variables
+.env
+.env.*
+
+# Django
+*.log
+media/
+
+# ==========================
+# Node / React
+# ==========================
+node_modules/
+build/
+dist/
+
+# React Environment
+frontend/.env
+frontend/.env.local
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Python Cache
+# ==========================
+.pytest_cache/
+.mypy_cache/
